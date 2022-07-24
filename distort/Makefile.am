@@ -6,7 +6,7 @@ pfsblur_SOURCES = pfsblur.cpp
 EXTRA_DIST = $(bin_SCRIPTS)
 
 LIBS = $(PFS_LIBS) 
-INCLUDES = $(PFS_CFLAGS)
+AM_CPPFLAGS = $(PFS_CFLAGS)
 
 
 
