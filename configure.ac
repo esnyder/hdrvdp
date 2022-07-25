@@ -1,4 +1,8 @@
 AC_INIT(hdrvdp, 1.7.1)
+
+AC_CONFIG_MACRO_DIRS([m4])
+LT_INIT()
+
 AM_INIT_AUTOMAKE
 
 AC_MSG_CHECKING([for pfs library])
